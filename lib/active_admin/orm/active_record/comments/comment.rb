@@ -27,5 +27,6 @@ module ActiveAdmin
       self.resource_type = self.class.resource_type(resource)
     end
 
+    attr_accessible :body, :namespace, :resource_id, :resource_type
   end
 end
